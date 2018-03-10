@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8F6FDDF2053BCB100B2543D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */; };
+		E8F6FDE12053BCB100B2543D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDE02053BCB100B2543D /* ViewController.swift */; };
+		E8F6FDE42053BCB100B2543D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6FDE22053BCB100B2543D /* Main.storyboard */; };
+		E8F6FDE62053BCB100B2543D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F6FDE52053BCB100B2543D /* Assets.xcassets */; };
+		E8F6FDE92053BCB100B2543D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6FDE72053BCB100B2543D /* LaunchScreen.storyboard */; };
+		E8F6FDF42053BCB100B2543D /* chittuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDF32053BCB100B2543D /* chittuTests.swift */; };
+		E8F6FDFF2053BCB100B2543D /* chittuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDFE2053BCB100B2543D /* chittuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F6FDF02053BCB100B2543D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F6FDD32053BCB100B2543D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F6FDDA2053BCB100B2543D;
+			remoteInfo = chittu;
+		};
+		E8F6FDFB2053BCB100B2543D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F6FDD32053BCB100B2543D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F6FDDA2053BCB100B2543D;
+			remoteInfo = chittu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8F6FDDB2053BCB100B2543D /* chittu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chittu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8F6FDE02053BCB100B2543D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8F6FDE32053BCB100B2543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F6FDE52053BCB100B2543D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F6FDE82053BCB100B2543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F6FDEA2053BCB100B2543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6FDEF2053BCB100B2543D /* chittuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chittuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F6FDF32053BCB100B2543D /* chittuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chittuTests.swift; sourceTree = "<group>"; };
+		E8F6FDF52053BCB100B2543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6FDFA2053BCB100B2543D /* chittuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chittuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F6FDFE2053BCB100B2543D /* chittuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chittuUITests.swift; sourceTree = "<group>"; };
+		E8F6FE002053BCB100B2543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8F6FDD82053BCB100B2543D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDEC2053BCB100B2543D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDF72053BCB100B2543D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8F6FDD22053BCB100B2543D = {
+			isa = PBXGroup;
+			children = (
+				E8F6FDDD2053BCB100B2543D /* chittu */,
+				E8F6FDF22053BCB100B2543D /* chittuTests */,
+				E8F6FDFD2053BCB100B2543D /* chittuUITests */,
+				E8F6FDDC2053BCB100B2543D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F6FDDC2053BCB100B2543D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6FDDB2053BCB100B2543D /* chittu.app */,
+				E8F6FDEF2053BCB100B2543D /* chittuTests.xctest */,
+				E8F6FDFA2053BCB100B2543D /* chittuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F6FDDD2053BCB100B2543D /* chittu */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */,
+				E8F6FDE02053BCB100B2543D /* ViewController.swift */,
+				E8F6FDE22053BCB100B2543D /* Main.storyboard */,
+				E8F6FDE52053BCB100B2543D /* Assets.xcassets */,
+				E8F6FDE72053BCB100B2543D /* LaunchScreen.storyboard */,
+				E8F6FDEA2053BCB100B2543D /* Info.plist */,
+			);
+			path = chittu;
+			sourceTree = "<group>";
+		};
+		E8F6FDF22053BCB100B2543D /* chittuTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6FDF32053BCB100B2543D /* chittuTests.swift */,
+				E8F6FDF52053BCB100B2543D /* Info.plist */,
+			);
+			path = chittuTests;
+			sourceTree = "<group>";
+		};
+		E8F6FDFD2053BCB100B2543D /* chittuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6FDFE2053BCB100B2543D /* chittuUITests.swift */,
+				E8F6FE002053BCB100B2543D /* Info.plist */,
+			);
+			path = chittuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8F6FDDA2053BCB100B2543D /* chittu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F6FE032053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittu" */;
+			buildPhases = (
+				E8F6FDD72053BCB100B2543D /* Sources */,
+				E8F6FDD82053BCB100B2543D /* Frameworks */,
+				E8F6FDD92053BCB100B2543D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chittu;
+			productName = chittu;
+			productReference = E8F6FDDB2053BCB100B2543D /* chittu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F6FDEE2053BCB100B2543D /* chittuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F6FE062053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuTests" */;
+			buildPhases = (
+				E8F6FDEB2053BCB100B2543D /* Sources */,
+				E8F6FDEC2053BCB100B2543D /* Frameworks */,
+				E8F6FDED2053BCB100B2543D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F6FDF12053BCB100B2543D /* PBXTargetDependency */,
+			);
+			name = chittuTests;
+			productName = chittuTests;
+			productReference = E8F6FDEF2053BCB100B2543D /* chittuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8F6FDF92053BCB100B2543D /* chittuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F6FE092053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuUITests" */;
+			buildPhases = (
+				E8F6FDF62053BCB100B2543D /* Sources */,
+				E8F6FDF72053BCB100B2543D /* Frameworks */,
+				E8F6FDF82053BCB100B2543D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F6FDFC2053BCB100B2543D /* PBXTargetDependency */,
+			);
+			name = chittuUITests;
+			productName = chittuUITests;
+			productReference = E8F6FDFA2053BCB100B2543D /* chittuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F6FDD32053BCB100B2543D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vara Prasada Gopi Srinath Samudrala";
+				TargetAttributes = {
+					E8F6FDDA2053BCB100B2543D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E8F6FDEE2053BCB100B2543D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8F6FDDA2053BCB100B2543D;
+					};
+					E8F6FDF92053BCB100B2543D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8F6FDDA2053BCB100B2543D;
+					};
+				};
+			};
+			buildConfigurationList = E8F6FDD62053BCB100B2543D /* Build configuration list for PBXProject "chittu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8F6FDD22053BCB100B2543D;
+			productRefGroup = E8F6FDDC2053BCB100B2543D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F6FDDA2053BCB100B2543D /* chittu */,
+				E8F6FDEE2053BCB100B2543D /* chittuTests */,
+				E8F6FDF92053BCB100B2543D /* chittuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8F6FDD92053BCB100B2543D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F6FDE92053BCB100B2543D /* LaunchScreen.storyboard in Resources */,
+				E8F6FDE62053BCB100B2543D /* Assets.xcassets in Resources */,
+				E8F6FDE42053BCB100B2543D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDED2053BCB100B2543D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDF82053BCB100B2543D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8F6FDD72053BCB100B2543D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F6FDE12053BCB100B2543D /* ViewController.swift in Sources */,
+				E8F6FDDF2053BCB100B2543D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDEB2053BCB100B2543D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F6FDF42053BCB100B2543D /* chittuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F6FDF62053BCB100B2543D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F6FDFF2053BCB100B2543D /* chittuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8F6FDF12053BCB100B2543D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F6FDDA2053BCB100B2543D /* chittu */;
+			targetProxy = E8F6FDF02053BCB100B2543D /* PBXContainerItemProxy */;
+		};
+		E8F6FDFC2053BCB100B2543D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F6FDDA2053BCB100B2543D /* chittu */;
+			targetProxy = E8F6FDFB2053BCB100B2543D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8F6FDE22053BCB100B2543D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F6FDE32053BCB100B2543D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F6FDE72053BCB100B2543D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F6FDE82053BCB100B2543D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8F6FE012053BCB100B2543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8F6FE022053BCB100B2543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8F6FE042053BCB100B2543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F6FE052053BCB100B2543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8F6FE072053BCB100B2543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chittu.app/chittu";
+			};
+			name = Debug;
+		};
+		E8F6FE082053BCB100B2543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chittu.app/chittu";
+			};
+			name = Release;
+		};
+		E8F6FE0A2053BCB100B2543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chittu;
+			};
+			name = Debug;
+		};
+		E8F6FE0B2053BCB100B2543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chittuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = r.chittuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chittu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F6FDD62053BCB100B2543D /* Build configuration list for PBXProject "chittu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F6FE012053BCB100B2543D /* Debug */,
+				E8F6FE022053BCB100B2543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F6FE032053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F6FE042053BCB100B2543D /* Debug */,
+				E8F6FE052053BCB100B2543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F6FE062053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F6FE072053BCB100B2543D /* Debug */,
+				E8F6FE082053BCB100B2543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F6FE092053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F6FE0A2053BCB100B2543D /* Debug */,
+				E8F6FE0B2053BCB100B2543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F6FDD32053BCB100B2543D /* Project object */;
+}
