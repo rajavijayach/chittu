@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    var number:Int = 0
+    @IBAction func perform(_ sender: Any) {
+        self.number += 1
+        self.label.text=String(number)
+        print (self.number)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
