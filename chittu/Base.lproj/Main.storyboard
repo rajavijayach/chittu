@@ -17,13 +17,57 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVu-lT-3fP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfA-mz-yTF">
+                                <rect key="frame" x="30" y="537" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JLO-qF-N9e"/>
+                                    <constraint firstAttribute="height" constant="100" id="hUP-pX-Fhf"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gyy-UL-crg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q6-FV-yY8">
+                                <rect key="frame" x="245" y="537" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="61b-RH-00p"/>
+                                    <constraint firstAttribute="height" constant="100" id="WUD-AK-FCK"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="suC-xs-8vH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lfA-mz-yTF" secondAttribute="bottom" constant="30" id="DuE-c9-UNi"/>
+                            <constraint firstItem="lfA-mz-yTF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="IwA-EA-Dro"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9q6-FV-yY8" secondAttribute="bottom" constant="30" id="aq0-Fs-Dl6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9q6-FV-yY8" secondAttribute="trailing" constant="30" id="dmf-3s-hLU"/>
+                            <constraint firstItem="nVu-lT-3fP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nCs-iC-hiI"/>
+                            <constraint firstItem="nVu-lT-3fP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="uVn-KP-nAq"/>
+                            <constraint firstItem="nVu-lT-3fP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wCi-Tr-VEd"/>
+                            <constraint firstItem="nVu-lT-3fP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zWO-i2-LPp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="sceneView" destination="nVu-lT-3fP" id="SfU-tP-ppc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Play" width="102" height="102"/>
+        <image name="Reset" width="102" height="102"/>
+    </resources>
 </document>

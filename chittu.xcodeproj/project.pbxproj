@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8AF97E720561DC100D05A4A /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = E8AF97E620561DC100D05A4A /* Textures */; };
+		E8AF97EA20561E8C00D05A4A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AF97E920561E8C00D05A4A /* art.scnassets */; };
 		E8F6FDDF2053BCB100B2543D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */; };
 		E8F6FDE12053BCB100B2543D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDE02053BCB100B2543D /* ViewController.swift */; };
 		E8F6FDE42053BCB100B2543D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6FDE22053BCB100B2543D /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8AF97E620561DC100D05A4A /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = "../../../Downloads/Spongebob Jellyfish/Textures"; sourceTree = "<group>"; };
+		E8AF97E920561E8C00D05A4A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E8F6FDDB2053BCB100B2543D /* chittu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chittu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F6FDE02053BCB100B2543D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +101,14 @@
 		E8F6FDDD2053BCB100B2543D /* chittu */ = {
 			isa = PBXGroup;
 			children = (
+				E8AF97E620561DC100D05A4A /* Textures */,
 				E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */,
 				E8F6FDE02053BCB100B2543D /* ViewController.swift */,
 				E8F6FDE22053BCB100B2543D /* Main.storyboard */,
 				E8F6FDE52053BCB100B2543D /* Assets.xcassets */,
 				E8F6FDE72053BCB100B2543D /* LaunchScreen.storyboard */,
 				E8F6FDEA2053BCB100B2543D /* Info.plist */,
+				E8AF97E920561E8C00D05A4A /* art.scnassets */,
 			);
 			path = chittu;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 			files = (
 				E8F6FDE92053BCB100B2543D /* LaunchScreen.storyboard in Resources */,
 				E8F6FDE62053BCB100B2543D /* Assets.xcassets in Resources */,
+				E8AF97EA20561E8C00D05A4A /* art.scnassets in Resources */,
+				E8AF97E720561DC100D05A4A /* Textures in Resources */,
 				E8F6FDE42053BCB100B2543D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
