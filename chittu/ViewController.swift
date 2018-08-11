@@ -11,6 +11,7 @@ import ARKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var play: UIButton!
     @IBOutlet weak var sceneView: ARSCNView!
     let configuration = ARWorldTrackingConfiguration()
     
@@ -30,6 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func play(_ sender: Any) {
         self.addNode()
+        self.play.isEnabled = false
     }
     
     @IBAction func reset(_ sender: Any) {
@@ -49,10 +51,21 @@ class ViewController: UIViewController {
             print("Didn't touch")
         } else {
             let results = hitTest.first!
-            let geometry = results.node.geometry
-            print(geometry)
-            
+            let node = results.node
+            if node.animationKeys.isEmpty {
+                self.animateNode(node: node)
+            }
         }
+    }
+    
+    func animateNode(node: SCNNode) {
+        let spin = CABasicAnimation(keyPath: "position")
+        spin.fromValue = node.presentation.position
+        spin.toValue = SCNVector3(0,0,node.presentation.position.z - 1)
+        spin.duration = 0.07
+        spin.autoreverses = true
+        spin.repeatCount = 3
+        node.addAnimation(spin, forKey: "position")
     }
     
     

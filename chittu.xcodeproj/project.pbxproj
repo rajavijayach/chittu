@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8AF97E720561DC100D05A4A /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = E8AF97E620561DC100D05A4A /* Textures */; };
+		0D61B026F60C6BEC00DD5D6F /* Pods_chittuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E518865D9D4FDC07849E9444 /* Pods_chittuTests.framework */; };
+		0FD9CD109E0C6EBAB784A364 /* Pods_chittuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32D62E22D047DEB40D4EA78 /* Pods_chittuUITests.framework */; };
+		D7D5862BB1531D962432F9B8 /* Pods_chittu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901482E68C7A5818D2B2880 /* Pods_chittu.framework */; };
+		E85B4D85211DE67600066380 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = E85B4D84211DE67600066380 /* Textures */; };
 		E8AF97EA20561E8C00D05A4A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AF97E920561E8C00D05A4A /* art.scnassets */; };
 		E8F6FDDF2053BCB100B2543D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */; };
 		E8F6FDE12053BCB100B2543D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6FDE02053BCB100B2543D /* ViewController.swift */; };
@@ -36,7 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8AF97E620561DC100D05A4A /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = "../../../Downloads/Spongebob Jellyfish/Textures"; sourceTree = "<group>"; };
+		4CEA4E0E21C4D2BDAE476F1E /* Pods-chittuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chittuTests/Pods-chittuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7901482E68C7A5818D2B2880 /* Pods_chittu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chittu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D62E22D047DEB40D4EA78 /* Pods_chittuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chittuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D110170AD65FDB243F2172B4 /* Pods-chittuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chittuTests/Pods-chittuTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAC600D3D77BFDBAB47F355B /* Pods-chittu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittu.release.xcconfig"; path = "Pods/Target Support Files/Pods-chittu/Pods-chittu.release.xcconfig"; sourceTree = "<group>"; };
+		DC5DEA32CB3C640755858955 /* Pods-chittuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chittuUITests/Pods-chittuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E18924CDE0C64F4513C1B503 /* Pods-chittu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chittu/Pods-chittu.debug.xcconfig"; sourceTree = "<group>"; };
+		E518865D9D4FDC07849E9444 /* Pods_chittuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chittuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85B4D84211DE67600066380 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = SOURCE_ROOT; };
 		E8AF97E920561E8C00D05A4A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E8F6FDDB2053BCB100B2543D /* chittu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chittu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		E8F6FDFA2053BCB100B2543D /* chittuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chittuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6FDFE2053BCB100B2543D /* chittuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chittuUITests.swift; sourceTree = "<group>"; };
 		E8F6FE002053BCB100B2543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44B344FA0012347713E3CF5 /* Pods-chittuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chittuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chittuUITests/Pods-chittuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D5862BB1531D962432F9B8 /* Pods_chittu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D61B026F60C6BEC00DD5D6F /* Pods_chittuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD9CD109E0C6EBAB784A364 /* Pods_chittuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37E0357F93EB2434BF6EB3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E18924CDE0C64F4513C1B503 /* Pods-chittu.debug.xcconfig */,
+				DAC600D3D77BFDBAB47F355B /* Pods-chittu.release.xcconfig */,
+				4CEA4E0E21C4D2BDAE476F1E /* Pods-chittuTests.debug.xcconfig */,
+				D110170AD65FDB243F2172B4 /* Pods-chittuTests.release.xcconfig */,
+				F44B344FA0012347713E3CF5 /* Pods-chittuUITests.debug.xcconfig */,
+				DC5DEA32CB3C640755858955 /* Pods-chittuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4C7FA65955CD87428F7CCFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7901482E68C7A5818D2B2880 /* Pods_chittu.framework */,
+				E518865D9D4FDC07849E9444 /* Pods_chittuTests.framework */,
+				A32D62E22D047DEB40D4EA78 /* Pods_chittuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8F6FDD22053BCB100B2543D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				E8F6FDF22053BCB100B2543D /* chittuTests */,
 				E8F6FDFD2053BCB100B2543D /* chittuUITests */,
 				E8F6FDDC2053BCB100B2543D /* Products */,
+				37E0357F93EB2434BF6EB3EF /* Pods */,
+				B4C7FA65955CD87428F7CCFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +141,7 @@
 		E8F6FDDD2053BCB100B2543D /* chittu */ = {
 			isa = PBXGroup;
 			children = (
-				E8AF97E620561DC100D05A4A /* Textures */,
+				E85B4D84211DE67600066380 /* Textures */,
 				E8F6FDDE2053BCB100B2543D /* AppDelegate.swift */,
 				E8F6FDE02053BCB100B2543D /* ViewController.swift */,
 				E8F6FDE22053BCB100B2543D /* Main.storyboard */,
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8F6FE032053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittu" */;
 			buildPhases = (
+				A8F8C9372518FD17FA4DD7F8 /* [CP] Check Pods Manifest.lock */,
 				E8F6FDD72053BCB100B2543D /* Sources */,
 				E8F6FDD82053BCB100B2543D /* Frameworks */,
 				E8F6FDD92053BCB100B2543D /* Resources */,
+				E5C887F68F8D8E354E6A3A9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8F6FE062053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuTests" */;
 			buildPhases = (
+				8E1DF9EC0B4D7C90E2D11475 /* [CP] Check Pods Manifest.lock */,
 				E8F6FDEB2053BCB100B2543D /* Sources */,
 				E8F6FDEC2053BCB100B2543D /* Frameworks */,
 				E8F6FDED2053BCB100B2543D /* Resources */,
@@ -173,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8F6FE092053BCB100B2543D /* Build configuration list for PBXNativeTarget "chittuUITests" */;
 			buildPhases = (
+				73045C5E007DEDDD91C680A8 /* [CP] Check Pods Manifest.lock */,
 				E8F6FDF62053BCB100B2543D /* Sources */,
 				E8F6FDF72053BCB100B2543D /* Frameworks */,
 				E8F6FDF82053BCB100B2543D /* Resources */,
@@ -194,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Vara Prasada Gopi Srinath Samudrala";
 				TargetAttributes = {
 					E8F6FDDA2053BCB100B2543D = {
@@ -241,7 +285,7 @@
 				E8F6FDE92053BCB100B2543D /* LaunchScreen.storyboard in Resources */,
 				E8F6FDE62053BCB100B2543D /* Assets.xcassets in Resources */,
 				E8AF97EA20561E8C00D05A4A /* art.scnassets in Resources */,
-				E8AF97E720561DC100D05A4A /* Textures in Resources */,
+				E85B4D85211DE67600066380 /* Textures in Resources */,
 				E8F6FDE42053BCB100B2543D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +305,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73045C5E007DEDDD91C680A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chittuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1DF9EC0B4D7C90E2D11475 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chittuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F8C9372518FD17FA4DD7F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chittu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C887F68F8D8E354E6A3A9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-chittu/Pods-chittu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chittu/Pods-chittu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8F6FDD72053BCB100B2543D /* Sources */ = {
@@ -337,6 +456,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -344,6 +464,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -394,6 +515,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -401,6 +523,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,6 +555,7 @@
 		};
 		E8F6FE042053BCB100B2543D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18924CDE0C64F4513C1B503 /* Pods-chittu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +571,7 @@
 		};
 		E8F6FE052053BCB100B2543D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC600D3D77BFDBAB47F355B /* Pods-chittu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +587,7 @@
 		};
 		E8F6FE072053BCB100B2543D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEA4E0E21C4D2BDAE476F1E /* Pods-chittuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +604,7 @@
 		};
 		E8F6FE082053BCB100B2543D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D110170AD65FDB243F2172B4 /* Pods-chittuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +621,7 @@
 		};
 		E8F6FE0A2053BCB100B2543D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44B344FA0012347713E3CF5 /* Pods-chittuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +637,7 @@
 		};
 		E8F6FE0B2053BCB100B2543D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5DEA32CB3C640755858955 /* Pods-chittuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
